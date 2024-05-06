@@ -1,0 +1,19 @@
+/* Custom utility class for equal shadow on each side */
+.equal-shadow {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.caret-transparent::placeholder {
+  color: transparent;
+}
+.selected {
+  background-color: #117fc5;
+  color: white;
+}
+
+
+.clicked-input {
+  border-color: white; /* Change border color */
+  /* box-shadow: 0 0 0 2px #117FC5; */
+  background-color: #117FC5 !important; /* Add a box shadow */
+}

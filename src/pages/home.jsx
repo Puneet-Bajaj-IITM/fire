@@ -384,15 +384,29 @@ function HomePage() {
                   className="w-full p-2 pl-4 focus:outline-none  cursor-pointer border-white border rounded-3xl bg-[#0E142B] placeholder:text-white text-white caret-transparent"
                   defaultValue={"DEFAULT"}
                 >
-                  <option value="DEFAULT" disabled>
-                    Select one
+                 <option value="select" defaultValue={"Select one..."}>
+                  Select one...
                   </option>
-                  {/* <option value="select" selected>
-                    Select one
-                  </option> */}
                   <option value="Agriculture">Agriculture</option>
-                  <option value="Automovive">Automovive</option>
+                  <option value="Automotive">Automotive</option>
+                  <option value="Banking/Finance">Banking/Finance</option>
                   <option value="Construction">Construction</option>
+                  <option value="Education">Education</option>
+                  <option value="Energy">Energy</option>
+                  <option value="Entertainment">Entertainment</option>
+                  <option value="Food and Beverage">Food and Beverage</option>
+                  <option value="Government">Government</option>
+                  <option value="Healthcare">Healthcare</option>
+                  <option value="Information Technology (IT)">Information Technology (IT)</option>
+                  <option value="Manufacturing">Manufacturing</option>
+                  <option value="Marketing/Advertising">Marketing/Advertising</option>
+                  <option value="Non Profit/Charity">Non Profit/Charity</option>
+                  <option value="Real Estate">Real Estate</option>
+                  <option value="Retail">Retail</option>
+                  <option value="Telecommunication">Telecommunication</option>
+                  <option value="Transport/Logistics">Transport/Logistics</option>
+                  <option value="Travel/Hospitality">Travel/Hospitality</option>
+                  <option value="Other">Other</option>
                 </select>
               </div>
             </div>

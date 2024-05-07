@@ -1,44 +1,47 @@
 .header-container {
+  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin: 25px 70px 5px 70px;
-  
+  width: 50%;
+  padding: 25px 0px 5px 0px;
 }
 
 .header-logo {
-  height: 100px;
+  height: 50px;
 }
 
 .company-name {
-  font-size: 18px;
-  font-weight: 700;
-  font-style: italic;
+  font-size: 20px;
 }
 
 .header-divider {
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
   height: 1.5px;
   background-color: black;
-  margin-bottom: 20px;
 }
 
 .assessment-overview {
   display: flex;
   flex-direction: column;
-  margin: 25px 50px 25px 50px;
-  font-family: 'Montserrat', 'Arial';
+  font-family: "Montserrat", "Arial";
+  color: black;
 
   .header {
-    font-size: 3rem;
-    width: 50%;
-    font-family: 'Montserrat', 'Arial';
-    font-weight: 900;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    font-size: 36px;
+    width: 100%;
+    font-family: "Montserrat", "Arial";
+    font-weight: 800;
+    line-height: 1;
+    color: black;
   }
+}
+
+.overview {
+  margin: 20px 0px 20px 0px ;
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {

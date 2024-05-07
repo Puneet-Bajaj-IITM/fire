@@ -5,28 +5,21 @@ canvas {
 }
 
 .charts-container {
-  max-width: 1200px; /* Set maximum width to 2000px */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 900px; /* Set maximum width to 2000px */
   display: flex; /* Use flexbox to align items */
   flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
   justify-content: center; /* Center align the items horizontally */
   min-height: calc(100vh - 400px); /* Adjust minimum height */
+  padding: 0px 40px 0px 40px;
+margin: auto;
 }
 
-
-.doughnut-chart-container,
-.bar-chart-container {
-  flex: 1; /* Occupy equal width */
-  max-width: 70%; /* Limit the maximum width to 50% */
-  margin: 10px; /* Add some margin between the charts */
-  aspect-ratio: 2;
-}
 
 
 .results-container {
   width: 100%; /* Occupy full width */
   text-align: center; /* Center align the content */
-  margin-top: 20px; /* Adjust margin as needed */
+  
 }
 
 .bar-chart-container {
@@ -44,4 +37,13 @@ canvas {
     height: 100%;
   }
   /* Adjust other styles as needed */
+}
+
+.performance-container{
+  width: 100%; 
+  background-color: black;
+  color: white;
+  padding: "10px";
+  text-align: center;
+  font-weight: 600;
 }
